@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	beego.SessionOn = true
 
 	beego.Run()
 }
